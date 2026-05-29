@@ -1,12 +1,12 @@
 apiVersion: apiextensions.crossplane.io/v2
 kind: CompositeResourceDefinition
 metadata:
-  name: crossplaneopenpanelproviders.hops.ops.com.ai
+  name: openpanelproviderstacks.crossplane.ops.com.ai
 spec:
-  group: hops.ops.com.ai
+  group: crossplane.ops.com.ai
   names:
-    kind: CrossplaneOpenPanelProvider
-    plural: crossplaneopenpanelproviders
+    kind: OpenPanelProviderStack
+    plural: openpanelproviderstacks
   scope: Namespaced
   defaultCompositeDeletePolicy: Foreground
   versions:

@@ -1,5 +1,5 @@
-apiVersion: hops.ops.com.ai/v1alpha1
-kind: CrossplaneOpenPanelProvider
+apiVersion: crossplane.ops.com.ai/v1alpha1
+kind: OpenPanelProviderStack
 metadata:
   name: openpanel
   namespace: default

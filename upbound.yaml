@@ -1,7 +1,7 @@
 apiVersion: meta.dev.upbound.io/v2alpha1
 kind: Project
 metadata:
-  name: crossplane-openpanel-provider
+  name: crossplane-openpanel-provider-stack
 spec:
   dependsOn:
   - apiVersion: pkg.crossplane.io/v1
@@ -17,7 +17,7 @@ spec:
   license: Apache-2.0
   maintainer: Patrick Lee Scott <pat@patscott.io>
   readme: |
-    # crossplane-openpanel-provider
+    # crossplane-openpanel-provider-stack
     Installs hops-ops/provider-openpanel and optionally composes its Secret-backed ProviderConfig.
-  repository: ghcr.io/hops-ops/crossplane-openpanel-provider
-  source: github.com/hops-ops/crossplane-openpanel-provider
+  repository: ghcr.io/hops-ops/crossplane-openpanel-provider-stack
+  source: github.com/hops-ops/crossplane-openpanel-provider-stack

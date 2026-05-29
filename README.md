@@ -1,4 +1,4 @@
-# crossplane-openpanel-provider
+# crossplane-openpanel-provider-stack
 
 Installs hops-ops/provider-openpanel and optionally composes its Secret-backed ProviderConfig.
 
@@ -12,7 +12,7 @@ resources, and ProviderConfig can be reconciled independently.
 
 ### Stage 1: Getting Started
 
-Apply the minimal example in `examples/crossplaneopenpanelproviders/minimal.yaml` after
+Apply the minimal example in `examples/openpanelproviderstacks/minimal.yaml` after
 the target cluster already has Crossplane core installed.
 
 ### Stage 2: Growing
