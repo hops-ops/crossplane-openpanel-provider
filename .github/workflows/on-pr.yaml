@@ -30,8 +30,8 @@ jobs:
     with:
       examples: |
         [
-      { "example": "examples/crossplaneopenpanelproviders/minimal.yaml" },
-      { "example": "examples/crossplaneopenpanelproviders/full.yaml" }
+          { "example": "examples/crossplaneopenpanelproviders/minimal.yaml" },
+          { "example": "examples/crossplaneopenpanelproviders/full.yaml" }
         ]
       api_path: apis/crossplaneopenpanelproviders
       error_on_missing_schemas: true
