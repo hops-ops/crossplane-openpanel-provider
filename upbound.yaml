@@ -1,0 +1,23 @@
+apiVersion: meta.dev.upbound.io/v2alpha1
+kind: Project
+metadata:
+  name: crossplane-openpanel-provider
+spec:
+  dependsOn:
+  - apiVersion: pkg.crossplane.io/v1
+    kind: Function
+    package: xpkg.crossplane.io/crossplane-contrib/function-auto-ready
+    version: '>=v0.6.4'
+  - apiVersion: pkg.crossplane.io/v1
+    kind: Provider
+    package: xpkg.crossplane.io/crossplane-contrib/provider-kubernetes
+    version: '>=v1'
+  description: Installs hops-ops/provider-openpanel and optionally composes its Secret-backed
+    ProviderConfig.
+  license: Apache-2.0
+  maintainer: Patrick Lee Scott <pat@patscott.io>
+  readme: |
+    # crossplane-openpanel-provider
+    Installs hops-ops/provider-openpanel and optionally composes its Secret-backed ProviderConfig.
+  repository: ghcr.io/hops-ops/crossplane-openpanel-provider
+  source: github.com/hops-ops/crossplane-openpanel-provider
